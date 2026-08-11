@@ -8,7 +8,7 @@ flugel100 studio ("kami") mengoperasikan aplikasi mobile **Diagnosa Trivia** ("A
 
 ## Ringkasan Singkat
 
-Diagnosa Trivia adalah game kuis edukatif. Kami **tidak menjual data Anda** dan tidak mengumpulkannya untuk kepentingan pemasaran kami sendiri. Aplikasi menampilkan iklan lewat jaringan iklan pihak ketiga (AppLovin MAX), dan jaringan itu mengakses pengenal iklan perangkat Anda — rinciannya di bagian 1d dan 3. Anda bisa menghilangkan iklan sepenuhnya lewat pembelian "Hapus Iklan Selamanya".
+Diagnosa Trivia adalah game kuis edukatif. Kami **tidak menjual data Anda** dan tidak mengumpulkannya untuk kepentingan pemasaran. Per tanggal pembaruan di atas, Aplikasi **belum menayangkan iklan pihak ketiga** — jaringan iklan yang direncanakan (AppLovin MAX) belum aktif, sehingga tidak ada pengenal iklan yang diakses. Rinciannya di bagian 1c dan 3.
 
 ---
 
@@ -25,16 +25,12 @@ Data ini akan terhapus jika Anda meng-uninstall aplikasi.
 ### b. Data Transaksi Pembelian (Google Play Billing)
 Jika Anda melakukan pembelian dalam aplikasi ("Hapus Iklan Selamanya"), transaksi diproses sepenuhnya oleh **Google Play Billing**. Kami tidak menyimpan informasi kartu kredit/debit, metode pembayaran, atau data finansial Anda. Informasi transaksi dikelola sesuai [Kebijakan Privasi Google Play](https://policies.google.com/privacy).
 
-### c. Data yang Diakses Jaringan Iklan
-Selama iklan masih aktif (yaitu sebelum Anda membeli "Hapus Iklan Selamanya"), Aplikasi memuat iklan melalui **AppLovin MAX**. Untuk memilih dan menghitung iklan, jaringan tersebut lazimnya mengakses:
-- **Pengenal iklan perangkat** (Google Advertising ID) — pengenal yang bisa Anda atur ulang atau nonaktifkan sendiri lewat pengaturan Android
-- Informasi teknis perangkat (model, versi sistem operasi, bahasa, operator)
-- Alamat IP dan perkiraan lokasi kasar yang diturunkan darinya
-- Interaksi Anda dengan iklan (tayang, klik)
+### c. Iklan — Status Saat Ini
+Per tanggal pembaruan di atas, **Aplikasi tidak menayangkan iklan pihak ketiga**. Akun jaringan iklan yang direncanakan (AppLovin MAX) belum aktif, SDK-nya belum terpasang di Aplikasi, dan tidak ada pengenal iklan perangkat yang diakses oleh siapa pun.
 
-Data ini diproses oleh AppLovin, **bukan oleh kami** — kami tidak menerima, menyimpan, maupun menggabungkannya dengan data permainan Anda. Rinciannya diatur [Kebijakan Privasi AppLovin](https://www.applovin.com/privacy/).
+Bagian dalam Aplikasi yang tampak seperti "menonton iklan" (misalnya jeda sebelum melanjutkan permainan) saat ini berjalan **secara lokal tanpa jaringan iklan apa pun** — tidak ada data yang dikirim keluar dari perangkat Anda saat itu terjadi.
 
-Setelah pembelian "Hapus Iklan Selamanya", Aplikasi berhenti memuat iklan sehingga pengumpulan di atas tidak lagi berjalan.
+Kalau iklan benar-benar diaktifkan nanti, jaringan iklan lazimnya akan mengakses pengenal iklan perangkat (Google Advertising ID), informasi teknis perangkat, alamat IP, dan interaksi Anda dengan iklan. **Kebijakan ini akan diperbarui lebih dulu sebelum itu terjadi**, bukan sesudahnya.
 
 ### d. Data Teknis Otomatis
 Google Play Console dapat menyediakan kami data agregat dan anonim seperti:
@@ -57,7 +53,7 @@ Kami **tidak**:
 - Menggabungkan data yang diakses jaringan iklan dengan progres permainan Anda
 - Meminta akun atau login apapun
 
-**Soal iklan, supaya jelas:** Aplikasi menampilkan iklan pihak ketiga, dan jaringan iklan tersebut memakai pengenal iklan perangkat yang dapat dipakai untuk penargetan lintas-aplikasi. Kami tidak mengendalikan proses itu dan tidak menerima datanya. Kalau Anda tidak menginginkannya, ada dua cara: atur ulang atau hapus pengenal iklan lewat pengaturan Android, atau beli "Hapus Iklan Selamanya" untuk mematikan iklan sama sekali.
+**Soal iklan, supaya jelas:** per tanggal pembaruan di atas Aplikasi tidak menayangkan iklan pihak ketiga dan tidak memakai pengenal iklan perangkat untuk penargetan. Kalau nanti berubah, kebijakan ini diperbarui lebih dulu — lihat bagian 1c.
 
 ---
 
@@ -67,7 +63,7 @@ Aplikasi ini menggunakan layanan berikut:
 
 | Layanan | Tujuan | Status | Kebijakan Privasi |
 |---|---|---|---|
-| AppLovin MAX | Menampilkan iklan dalam aplikasi | Aktif, sampai Anda membeli "Hapus Iklan Selamanya" | [applovin.com/privacy](https://www.applovin.com/privacy/) |
+| AppLovin MAX | Menampilkan iklan dalam aplikasi | **Belum aktif** per tanggal pembaruan di atas — SDK belum terpasang | [applovin.com/privacy](https://www.applovin.com/privacy/) |
 | Google Play Billing | Memproses pembelian dalam aplikasi | Aktif | [policies.google.com/privacy](https://policies.google.com/privacy) |
 | Google Play Console | Distribusi aplikasi & laporan crash | Aktif | [policies.google.com/privacy](https://policies.google.com/privacy) |
 
@@ -81,8 +77,7 @@ Anda dapat:
 - **Menghapus semua data lokal** dengan meng-uninstall aplikasi kapan saja
 - **Memulihkan pembelian** Anda melalui fitur "Pulihkan Pembelian" di dalam aplikasi (terhubung ke akun Google Play Anda)
 - **Mengelola izin pembelian** melalui pengaturan akun Google Play Anda
-- **Mengatur ulang atau menghapus pengenal iklan** Anda lewat Pengaturan Android → Google → Iklan
-- **Mematikan iklan sepenuhnya** dengan membeli "Hapus Iklan Selamanya"
+- **Mengatur ulang atau menghapus pengenal iklan** Anda lewat Pengaturan Android → Google → Iklan (relevan begitu iklan diaktifkan)
 
 ---
 
@@ -117,6 +112,6 @@ Email: ali.torihin100@gmail.com
 
 ## Riwayat Perubahan
 
-**11 Agustus 2026** — Bagian iklan dilengkapi. Versi sebelumnya menyebut pembelian "Hapus Iklan Selamanya" tetapi tidak mencantumkan jaringan iklan yang dipakai, dan memuat pernyataan yang bisa menyesatkan soal pelacakan. Sekarang AppLovin MAX dicantumkan eksplisit beserta data yang diaksesnya dan cara Anda mengendalikannya. Tidak ada perubahan pada cara Aplikasi bekerja — yang berubah adalah kelengkapan penjelasannya.
+**11 Agustus 2026** — Status iklan dijelaskan eksplisit. Versi sebelumnya menyebut pembelian "Hapus Iklan Selamanya" tanpa menerangkan bahwa jaringan iklan yang direncanakan belum aktif, sehingga pembaca bisa mengira iklan pihak ketiga sudah berjalan. Sekarang AppLovin MAX dicantumkan di daftar pihak ketiga dengan status **belum aktif**, disertai penjelasan apa yang akan terjadi kalau nanti diaktifkan. Tidak ada perubahan pada cara Aplikasi bekerja.
 
 **30 Juni 2026** — Versi pertama.
