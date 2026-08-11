@@ -1,6 +1,6 @@
 # Kebijakan Privasi — Diagnosa Trivia
 
-**Terakhir diperbarui:** 30 Juni 2026
+**Terakhir diperbarui:** 11 Agustus 2026
 
 flugel100 studio ("kami") mengoperasikan aplikasi mobile **Diagnosa Trivia** ("Aplikasi"). Halaman ini menjelaskan bagaimana kami menangani informasi saat Anda menggunakan Aplikasi.
 
@@ -8,7 +8,7 @@ flugel100 studio ("kami") mengoperasikan aplikasi mobile **Diagnosa Trivia** ("A
 
 ## Ringkasan Singkat
 
-Diagnosa Trivia adalah game kuis edukatif. Aplikasi ini **tidak mengumpulkan data pribadi Anda** untuk tujuan pemasaran atau dijual ke pihak ketiga. Data yang diproses hanya untuk fungsi inti aplikasi: menyimpan progres permainan dan memproses pembelian dalam aplikasi.
+Diagnosa Trivia adalah game kuis edukatif. Kami **tidak menjual data Anda** dan tidak mengumpulkannya untuk kepentingan pemasaran kami sendiri. Aplikasi menampilkan iklan lewat jaringan iklan pihak ketiga (AppLovin MAX), dan jaringan itu mengakses pengenal iklan perangkat Anda — rinciannya di bagian 1d dan 3. Anda bisa menghilangkan iklan sepenuhnya lewat pembelian "Hapus Iklan Selamanya".
 
 ---
 
@@ -25,7 +25,18 @@ Data ini akan terhapus jika Anda meng-uninstall aplikasi.
 ### b. Data Transaksi Pembelian (Google Play Billing)
 Jika Anda melakukan pembelian dalam aplikasi ("Hapus Iklan Selamanya"), transaksi diproses sepenuhnya oleh **Google Play Billing**. Kami tidak menyimpan informasi kartu kredit/debit, metode pembayaran, atau data finansial Anda. Informasi transaksi dikelola sesuai [Kebijakan Privasi Google Play](https://policies.google.com/privacy).
 
-### c. Data Teknis Otomatis
+### c. Data yang Diakses Jaringan Iklan
+Selama iklan masih aktif (yaitu sebelum Anda membeli "Hapus Iklan Selamanya"), Aplikasi memuat iklan melalui **AppLovin MAX**. Untuk memilih dan menghitung iklan, jaringan tersebut lazimnya mengakses:
+- **Pengenal iklan perangkat** (Google Advertising ID) — pengenal yang bisa Anda atur ulang atau nonaktifkan sendiri lewat pengaturan Android
+- Informasi teknis perangkat (model, versi sistem operasi, bahasa, operator)
+- Alamat IP dan perkiraan lokasi kasar yang diturunkan darinya
+- Interaksi Anda dengan iklan (tayang, klik)
+
+Data ini diproses oleh AppLovin, **bukan oleh kami** — kami tidak menerima, menyimpan, maupun menggabungkannya dengan data permainan Anda. Rinciannya diatur [Kebijakan Privasi AppLovin](https://www.applovin.com/privacy/).
+
+Setelah pembelian "Hapus Iklan Selamanya", Aplikasi berhenti memuat iklan sehingga pengumpulan di atas tidak lagi berjalan.
+
+### d. Data Teknis Otomatis
 Google Play Console dapat menyediakan kami data agregat dan anonim seperti:
 - Jumlah unduhan dan instalasi
 - Laporan crash (jika terjadi error teknis)
@@ -42,8 +53,11 @@ Informasi yang diproses digunakan semata-mata untuk:
 
 Kami **tidak**:
 - Menjual data Anda ke pihak ketiga
-- Menampilkan iklan pihak ketiga yang melacak perilaku Anda di luar aplikasi
-- Mengumpulkan lokasi, kontak, foto, atau data sensitif lainnya
+- Mengumpulkan kontak, foto, mikrofon, kamera, atau lokasi presisi
+- Menggabungkan data yang diakses jaringan iklan dengan progres permainan Anda
+- Meminta akun atau login apapun
+
+**Soal iklan, supaya jelas:** Aplikasi menampilkan iklan pihak ketiga, dan jaringan iklan tersebut memakai pengenal iklan perangkat yang dapat dipakai untuk penargetan lintas-aplikasi. Kami tidak mengendalikan proses itu dan tidak menerima datanya. Kalau Anda tidak menginginkannya, ada dua cara: atur ulang atau hapus pengenal iklan lewat pengaturan Android, atau beli "Hapus Iklan Selamanya" untuk mematikan iklan sama sekali.
 
 ---
 
@@ -51,10 +65,13 @@ Kami **tidak**:
 
 Aplikasi ini menggunakan layanan berikut:
 
-| Layanan | Tujuan | Kebijakan Privasi |
-|---|---|---|
-| Google Play Billing | Memproses pembelian dalam aplikasi | [policies.google.com/privacy](https://policies.google.com/privacy) |
-| Google Play Console | Distribusi aplikasi & laporan crash | [policies.google.com/privacy](https://policies.google.com/privacy) |
+| Layanan | Tujuan | Status | Kebijakan Privasi |
+|---|---|---|---|
+| AppLovin MAX | Menampilkan iklan dalam aplikasi | Aktif, sampai Anda membeli "Hapus Iklan Selamanya" | [applovin.com/privacy](https://www.applovin.com/privacy/) |
+| Google Play Billing | Memproses pembelian dalam aplikasi | Aktif | [policies.google.com/privacy](https://policies.google.com/privacy) |
+| Google Play Console | Distribusi aplikasi & laporan crash | Aktif | [policies.google.com/privacy](https://policies.google.com/privacy) |
+
+Aplikasi ini **tidak** memakai Google AdMob maupun jaringan iklan lain selain yang tercantum di atas.
 
 ---
 
@@ -64,6 +81,8 @@ Anda dapat:
 - **Menghapus semua data lokal** dengan meng-uninstall aplikasi kapan saja
 - **Memulihkan pembelian** Anda melalui fitur "Pulihkan Pembelian" di dalam aplikasi (terhubung ke akun Google Play Anda)
 - **Mengelola izin pembelian** melalui pengaturan akun Google Play Anda
+- **Mengatur ulang atau menghapus pengenal iklan** Anda lewat Pengaturan Android → Google → Iklan
+- **Mematikan iklan sepenuhnya** dengan membeli "Hapus Iklan Selamanya"
 
 ---
 
@@ -95,3 +114,9 @@ Email: ali.torihin100@gmail.com
 ---
 
 *Dokumen ini berlaku untuk aplikasi Diagnosa Trivia yang dikembangkan oleh flugel100 studio dan didistribusikan melalui Google Play Store.*
+
+## Riwayat Perubahan
+
+**11 Agustus 2026** — Bagian iklan dilengkapi. Versi sebelumnya menyebut pembelian "Hapus Iklan Selamanya" tetapi tidak mencantumkan jaringan iklan yang dipakai, dan memuat pernyataan yang bisa menyesatkan soal pelacakan. Sekarang AppLovin MAX dicantumkan eksplisit beserta data yang diaksesnya dan cara Anda mengendalikannya. Tidak ada perubahan pada cara Aplikasi bekerja — yang berubah adalah kelengkapan penjelasannya.
+
+**30 Juni 2026** — Versi pertama.
